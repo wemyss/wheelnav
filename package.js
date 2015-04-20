@@ -1,6 +1,6 @@
 Package.describe({
   name: 'doedel:wheelnav',
-  summary: 'Animated javascript navigation component based on Raphaël.js (SVG/VML). It can be a pie menu (radial menu, circular menu) and many more.',
+  summary: 'Animate wheel navigation control based on RaphaelJS',
   version: '1.5.2',
   git: 'https://github.com/udiedrichsen/wheelnav.git'
 });
