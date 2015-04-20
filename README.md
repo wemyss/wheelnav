@@ -1,5 +1,5 @@
 Meteor pacakge for wheelnav javascript framework.
-Check out my very simple meteor test package [http://gibhub.com/udiedrichsen/meteor-wheelnav].
+Check out my very simple meteor test package [https://github.com/udiedrichsen/meteor-wheelnav-test].
 
 wheelnav.js
 ===========
