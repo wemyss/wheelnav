@@ -1,7 +1,7 @@
 Package.describe({
   name: 'doedel:wheelnav',
   summary: 'Animate wheel navigation control based on RaphaelJS',
-  version: '1.5.2',
+  version: '1.5.4',
   git: 'https://github.com/udiedrichsen/wheelnav.git'
 });
 
@@ -10,10 +10,10 @@ Package.onUse(function(api) {
   api.use(["meteor"]);
 
   api.addFiles([
-  'css/index.css',
-  'js/required/raphael.icons.js',
-  'js/required/raphael.js',
-  'js/dist/wheelnav.js'
+  'lib/css/index.css',
+  'lib/js/required/raphael.icons.js',
+  'lib/js/required/raphael.js',
+  'lib/js/dist/wheelnav.js'
   ], 'client');
 
   api.export('icon', 'client');
