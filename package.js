@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'doedel:wheelnav',
+  name: 'swemyss:wheelnav',
   summary: 'Animate wheel navigation control based on RaphaelJS',
-  version: '1.5.4',
-  git: 'https://github.com/udiedrichsen/wheelnav.git'
+  version: '1.6.1',
+  git: 'https://github.com/wemyss/wheelnav.git'
 });
 
 Package.onUse(function(api) {
@@ -10,7 +10,6 @@ Package.onUse(function(api) {
   api.use(["meteor"]);
 
   api.addFiles([
-  'lib/css/index.css',
   'lib/js/required/raphael.icons.js',
   'lib/js/required/raphael.js',
   'lib/js/dist/wheelnav.js'
@@ -19,4 +18,6 @@ Package.onUse(function(api) {
   api.export('icon', 'client');
   api.export('Raphael', 'client');
   api.export('wheelnav', 'client');
+  api.export('slicePath', 'client');
+  // api.export('sliceTransform', 'client');
 });
