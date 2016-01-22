@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom("1.0.1");
+  api.versionsFrom("1.2.1");
   api.use(["meteor"]);
 
   api.addFiles([
@@ -19,5 +19,4 @@ Package.onUse(function(api) {
   api.export('Raphael', 'client');
   api.export('wheelnav', 'client');
   api.export('slicePath', 'client');
-  // api.export('sliceTransform', 'client');
 });
