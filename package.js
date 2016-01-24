@@ -1,7 +1,7 @@
 Package.describe({
   name: 'swemyss:wheelnav',
   summary: 'Animate wheel navigation control based on RaphaelJS',
-  version: '1.6.1',
+  version: '1.0.0',
   git: 'https://github.com/wemyss/wheelnav.git'
 });
 
